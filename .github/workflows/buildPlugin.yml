@@ -26,4 +26,4 @@ jobs:
             cd $ANDROID_NDK_HOME
             ls
     - name: make
-      run: bash Utils/build-everything.sh --version 1.0 --ndkpath {$ANDROID_NDK_HOME}
+      run: bash Utils/build-everything.sh --version 1.0 --ndkpath $ANDROID_NDK_HOME
